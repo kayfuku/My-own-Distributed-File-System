@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>  
+<Configuration status="off">
+    <Properties>
+        <Property name="format1">%d{HH:mm:ss.SSS} [%t] %-6p %c{1} %m%n</Property>
+        <Property name="format2">%d{yyyy/MM/dd HH:mm:ss.SSS} [%t] %-6p %c{1} %m%n</Property>
+       <!-- 
+        %d: date and time
+        %t: thread name
+        %-6p: loglevel
+        %c{x}: ex. org.apache.commons.Foo, %c{2}> commons.Foo
+        %m: log message
+        %n: new line
+      -->
+        <Property name="logfile">logfiles/testlog.log</Property>
+        <Property name="logfile-archive">logfiles/testlog_%d{yyyy-MM-dd}-%i.log</Property>
+    </Properties>
+    
+    <Appenders>
+        <!-- Console -->
+        <!-- 
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>${format1}</pattern>
+            </PatternLayout>
+        </Console>
+         -->
+
+        <!-- File -->
+        <RollingFile name="logfile001" append="true" fileName="${logfile}"
+            filePattern="${logfile-archive}">
+            <PatternLayout>
+                <pattern>${format1}</pattern>
+            </PatternLayout>
+            <Policies>
+                //　Create lotation file when reaching 10 MB. 
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            //　3 lotation files
+            <DefaultRolloverStrategy max="3"/>
+        </RollingFile>
+    </Appenders>
+    
+    <Loggers>
+        // Print out logs above trace.
+        <Root level="trace">
+        	<!--  
+            <AppenderRef ref="Console" />
+             -->
+            
+            <AppenderRef ref="logfile001" />
+        </Root>
+    </Loggers>
+</Configuration>

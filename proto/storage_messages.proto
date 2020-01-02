@@ -1,0 +1,94 @@
+syntax = "proto3";
+option java_package = "edu.usfca.cs.dfs";
+
+message StorageAddr {
+    string storageAddr = 1;
+    float space = 2;
+    int32 numReq = 3;
+}
+
+message Heartbeat {
+    string heartbeat = 1;
+    float space = 2;
+    int32 numReq = 3;
+}
+
+message StoreReq {
+    string fileName = 1;
+    int32 numChunks = 2;
+}
+
+message StoreRes {
+    repeated string addresses = 1;
+}
+
+message StoreChunkReq {
+    string fileName = 1;
+    int32 chunkId = 2;
+    bytes data = 3;
+}
+
+message StoreDone {
+    bool isDone = 1;
+    int32 chunkId = 2;
+}
+
+message RetrieveReq {
+    string fileName = 1;
+}
+
+message RetrieveRes {
+    repeated string addresses = 1;
+    int32 numChunks = 2;
+}
+
+message RetrieveChunkRes {
+    string fileName = 1;
+    int32 chunkId = 2;
+    bytes data = 3;
+}
+
+message InfoReq {
+    string infoReq = 1;
+}
+
+message InfoRes {
+    repeated string addresses = 1;
+    float space = 2;
+    map<string, int32> snToNumRequests = 3;
+}
+
+message StorageMessageWrapper {
+    oneof msg {
+        StorageAddr storageAddrMsg = 1;
+        Heartbeat heartbeatMsg = 2;
+        StoreReq storeReqMsg = 3;
+        StoreRes storeResMsg = 4;
+        StoreChunkReq storeChunkReqMsg = 5;
+        StoreDone storeDoneMsg = 6;
+        RetrieveReq retrieveReqMsg = 7;
+        RetrieveRes retrieveResMsg = 8;
+        RetrieveChunkRes retrieveChunkResMsg = 9;
+        InfoReq infoReqMsg = 10;
+        InfoRes infoResMsg = 11;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

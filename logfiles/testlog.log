@@ -1,0 +1,421 @@
+17:09:22.127 [main] DEBUG  InternalLoggerFactory Using Log4J2 as the default logging framework
+17:09:22.132 [main] DEBUG  MultithreadEventLoopGroup -Dio.netty.eventLoopThreads: 24
+17:09:22.140 [main] DEBUG  InternalThreadLocalMap -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+17:09:22.140 [main] DEBUG  InternalThreadLocalMap -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+17:09:22.144 [main] DEBUG  NioEventLoop -Dio.netty.noKeySetOptimization: false
+17:09:22.144 [main] DEBUG  NioEventLoop -Dio.netty.selectorAutoRebuildThreshold: 512
+17:09:22.153 [main] DEBUG  PlatformDependent Platform: MacOS
+17:09:22.154 [main] DEBUG  PlatformDependent0 -Dio.netty.noUnsafe: false
+17:09:22.154 [main] DEBUG  PlatformDependent0 Java version: 8
+17:09:22.154 [main] DEBUG  PlatformDependent0 sun.misc.Unsafe.theUnsafe: available
+17:09:22.155 [main] DEBUG  PlatformDependent0 sun.misc.Unsafe.copyMemory: available
+17:09:22.155 [main] DEBUG  PlatformDependent0 java.nio.Buffer.address: available
+17:09:22.155 [main] DEBUG  PlatformDependent0 direct buffer constructor: available
+17:09:22.155 [main] DEBUG  PlatformDependent0 java.nio.Bits.unaligned: available, true
+17:09:22.156 [main] DEBUG  PlatformDependent0 jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+17:09:22.156 [main] DEBUG  PlatformDependent0 java.nio.DirectByteBuffer.<init>(long, int): available
+17:09:22.156 [main] DEBUG  PlatformDependent sun.misc.Unsafe: available
+17:09:22.156 [main] DEBUG  PlatformDependent -Dio.netty.tmpdir: /var/folders/q1/g1m50l_515dgkfx0_0_0vcb00000gn/T (java.io.tmpdir)
+17:09:22.156 [main] DEBUG  PlatformDependent -Dio.netty.bitMode: 64 (sun.arch.data.model)
+17:09:22.156 [main] DEBUG  PlatformDependent -Dio.netty.maxDirectMemory: 3817865216 bytes
+17:09:22.157 [main] DEBUG  PlatformDependent -Dio.netty.uninitializedArrayAllocationThreshold: -1
+17:09:22.157 [main] DEBUG  CleanerJava6 java.nio.ByteBuffer.cleaner(): available
+17:09:22.157 [main] DEBUG  PlatformDependent -Dio.netty.noPreferDirect: false
+17:09:22.161 [main] DEBUG  PlatformDependent org.jctools-core.MpscChunkedArrayQueue: available
+17:09:22.165 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4de5031f
+17:09:22.166 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5ea434c8
+17:09:22.166 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bbc39f8
+17:09:22.166 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4ae3c1cd
+17:09:22.166 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@29f69090
+17:09:22.166 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@568bf312
+17:09:22.166 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@ca263c2
+17:09:22.166 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@589b3632
+17:09:22.166 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@45f45fa1
+17:09:22.167 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4c6e276e
+17:09:22.167 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@534df152
+17:09:22.167 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@52e677af
+17:09:22.167 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@35083305
+17:09:22.167 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@8e0379d
+17:09:22.167 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@341b80b2
+17:09:22.167 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@55a1c291
+17:09:22.167 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@2145433b
+17:09:22.167 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@2890c451
+17:09:22.167 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@40e6dfe1
+17:09:22.168 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1b083826
+17:09:22.168 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@105fece7
+17:09:22.168 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3ec300f1
+17:09:22.168 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@482cd91f
+17:09:22.168 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@123f1134
+17:09:22.168 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@691a7f8f
+17:09:22.168 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@50a7bc6e
+17:09:22.169 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@161b062a
+17:09:22.169 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@17c1bced
+17:09:22.188 [main] DEBUG  DefaultChannelId -Dio.netty.processId: 2067 (auto-detected)
+17:09:22.189 [main] DEBUG  NetUtil -Djava.net.preferIPv4Stack: false
+17:09:22.190 [main] DEBUG  NetUtil -Djava.net.preferIPv6Addresses: false
+17:09:22.194 [main] DEBUG  NetUtil Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+17:09:22.194 [main] DEBUG  NetUtil Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+17:09:22.195 [main] DEBUG  DefaultChannelId -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+17:09:22.202 [main] DEBUG  ResourceLeakDetector -Dio.netty.leakDetection.level: simple
+17:09:22.202 [main] DEBUG  ResourceLeakDetector -Dio.netty.leakDetection.targetRecords: 4
+17:09:22.218 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.numHeapArenas: 24
+17:09:22.218 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.numDirectArenas: 24
+17:09:22.218 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.pageSize: 8192
+17:09:22.218 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.maxOrder: 11
+17:09:22.218 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.chunkSize: 16777216
+17:09:22.218 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.tinyCacheSize: 512
+17:09:22.218 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.smallCacheSize: 256
+17:09:22.218 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.normalCacheSize: 64
+17:09:22.218 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+17:09:22.218 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.cacheTrimInterval: 8192
+17:09:22.219 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+17:09:22.219 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.useCacheForAllThreads: true
+17:09:22.219 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+17:09:22.223 [main] DEBUG  ByteBufUtil -Dio.netty.allocator.type: pooled
+17:09:22.223 [main] DEBUG  ByteBufUtil -Dio.netty.threadLocalDirectBufferSize: 0
+17:09:22.223 [main] DEBUG  ByteBufUtil -Dio.netty.maxThreadLocalCharBufferSize: 16384
+17:09:22.236 [main] TRACE  Controller Listening for connections on port 7000
+17:09:22.236 [Thread-1] TRACE  FailureDetector FailureDetector run() start.
+17:09:28.595 [main] TRACE  StorageNode address: 192.168.1.9:7001
+17:09:28.602 [main] DEBUG  InternalLoggerFactory Using Log4J2 as the default logging framework
+17:09:28.604 [main] DEBUG  MultithreadEventLoopGroup -Dio.netty.eventLoopThreads: 24
+17:09:28.613 [main] DEBUG  InternalThreadLocalMap -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+17:09:28.613 [main] DEBUG  InternalThreadLocalMap -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+17:09:28.617 [main] DEBUG  NioEventLoop -Dio.netty.noKeySetOptimization: false
+17:09:28.617 [main] DEBUG  NioEventLoop -Dio.netty.selectorAutoRebuildThreshold: 512
+17:09:28.626 [main] DEBUG  PlatformDependent Platform: MacOS
+17:09:28.627 [main] DEBUG  PlatformDependent0 -Dio.netty.noUnsafe: false
+17:09:28.627 [main] DEBUG  PlatformDependent0 Java version: 8
+17:09:28.627 [main] DEBUG  PlatformDependent0 sun.misc.Unsafe.theUnsafe: available
+17:09:28.628 [main] DEBUG  PlatformDependent0 sun.misc.Unsafe.copyMemory: available
+17:09:28.628 [main] DEBUG  PlatformDependent0 java.nio.Buffer.address: available
+17:09:28.628 [main] DEBUG  PlatformDependent0 direct buffer constructor: available
+17:09:28.628 [main] DEBUG  PlatformDependent0 java.nio.Bits.unaligned: available, true
+17:09:28.628 [main] DEBUG  PlatformDependent0 jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+17:09:28.629 [main] DEBUG  PlatformDependent0 java.nio.DirectByteBuffer.<init>(long, int): available
+17:09:28.629 [main] DEBUG  PlatformDependent sun.misc.Unsafe: available
+17:09:28.629 [main] DEBUG  PlatformDependent -Dio.netty.tmpdir: /var/folders/q1/g1m50l_515dgkfx0_0_0vcb00000gn/T (java.io.tmpdir)
+17:09:28.629 [main] DEBUG  PlatformDependent -Dio.netty.bitMode: 64 (sun.arch.data.model)
+17:09:28.630 [main] DEBUG  PlatformDependent -Dio.netty.maxDirectMemory: 3817865216 bytes
+17:09:28.630 [main] DEBUG  PlatformDependent -Dio.netty.uninitializedArrayAllocationThreshold: -1
+17:09:28.630 [main] DEBUG  CleanerJava6 java.nio.ByteBuffer.cleaner(): available
+17:09:28.630 [main] DEBUG  PlatformDependent -Dio.netty.noPreferDirect: false
+17:09:28.634 [main] DEBUG  PlatformDependent org.jctools-core.MpscChunkedArrayQueue: available
+17:09:28.639 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@52aa2946
+17:09:28.639 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5d47c63f
+17:09:28.639 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5ea434c8
+17:09:28.639 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bbc39f8
+17:09:28.639 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4ae3c1cd
+17:09:28.639 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@29f69090
+17:09:28.639 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@568bf312
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@ca263c2
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@589b3632
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@45f45fa1
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4c6e276e
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@534df152
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@52e677af
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@35083305
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@8e0379d
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@341b80b2
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@55a1c291
+17:09:28.640 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@2145433b
+17:09:28.641 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@2890c451
+17:09:28.641 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@40e6dfe1
+17:09:28.641 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1b083826
+17:09:28.641 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@105fece7
+17:09:28.641 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3ec300f1
+17:09:28.641 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@482cd91f
+17:09:28.641 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@780cb77
+17:09:28.642 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@691a7f8f
+17:09:28.642 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@50a7bc6e
+17:09:28.642 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@161b062a
+17:09:28.661 [main] DEBUG  DefaultChannelId -Dio.netty.processId: 2068 (auto-detected)
+17:09:28.662 [main] DEBUG  NetUtil -Djava.net.preferIPv4Stack: false
+17:09:28.662 [main] DEBUG  NetUtil -Djava.net.preferIPv6Addresses: false
+17:09:28.667 [main] DEBUG  NetUtil Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+17:09:28.667 [main] DEBUG  NetUtil Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+17:09:28.668 [main] DEBUG  DefaultChannelId -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+17:09:28.675 [main] DEBUG  ResourceLeakDetector -Dio.netty.leakDetection.level: simple
+17:09:28.675 [main] DEBUG  ResourceLeakDetector -Dio.netty.leakDetection.targetRecords: 4
+17:09:28.691 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.numHeapArenas: 24
+17:09:28.691 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.numDirectArenas: 24
+17:09:28.691 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.pageSize: 8192
+17:09:28.691 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.maxOrder: 11
+17:09:28.691 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.chunkSize: 16777216
+17:09:28.691 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.tinyCacheSize: 512
+17:09:28.691 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.smallCacheSize: 256
+17:09:28.691 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.normalCacheSize: 64
+17:09:28.692 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+17:09:28.692 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.cacheTrimInterval: 8192
+17:09:28.692 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+17:09:28.692 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.useCacheForAllThreads: true
+17:09:28.692 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+17:09:28.697 [main] DEBUG  ByteBufUtil -Dio.netty.allocator.type: pooled
+17:09:28.697 [main] DEBUG  ByteBufUtil -Dio.netty.threadLocalDirectBufferSize: 0
+17:09:28.697 [main] DEBUG  ByteBufUtil -Dio.netty.maxThreadLocalCharBufferSize: 16384
+17:09:28.711 [main] TRACE  StorageNode 192.168.1.9:7001, Listening for connections on port 7001
+17:09:28.712 [main] TRACE  StorageNode startup() start.
+17:09:28.712 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@481a996b
+17:09:28.712 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3d51f06e
+17:09:28.712 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7ed7259e
+17:09:28.712 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@28eaa59a
+17:09:28.712 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3427b02d
+17:09:28.713 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@647e447
+17:09:28.713 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@41fbdac4
+17:09:28.713 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3c407114
+17:09:28.713 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@35ef1869
+17:09:28.713 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@c33b74f
+17:09:28.713 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@130161f7
+17:09:28.713 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@2c767a52
+17:09:28.713 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@619713e5
+17:09:28.713 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@708f5957
+17:09:28.714 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@68999068
+17:09:28.714 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7722c3c3
+17:09:28.714 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@2ef3eef9
+17:09:28.714 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@243c4f91
+17:09:28.714 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@291ae
+17:09:28.714 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@61df66b6
+17:09:28.714 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@50eac852
+17:09:28.715 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@16ec5519
+17:09:28.715 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@2f7298b
+17:09:28.715 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@188715b5
+17:09:28.823 [nioEventLoopGroup-4-1] TRACE  StorageNodeToControllerHandler Connection established: localhost/127.0.0.1:7000 ctx: ChannelHandlerContext(StorageNodeToControllerHandler#0, [id: 0x91b7dd8a, L:/127.0.0.1:53744 - R:localhost/127.0.0.1:7000])
+17:09:28.824 [main] TRACE  StorageNode 192.168.1.9:7001 Sending address..
+17:09:28.825 [main] DEBUG  Recycler -Dio.netty.recycler.maxCapacityPerThread: 4096
+17:09:28.826 [main] DEBUG  Recycler -Dio.netty.recycler.maxSharedCapacityFactor: 2
+17:09:28.826 [main] DEBUG  Recycler -Dio.netty.recycler.linkCapacity: 16
+17:09:28.826 [main] DEBUG  Recycler -Dio.netty.recycler.ratio: 8
+17:09:28.844 [nioEventLoopGroup-4-1] DEBUG  AbstractByteBuf -Dio.netty.buffer.checkAccessible: true
+17:09:28.844 [nioEventLoopGroup-4-1] DEBUG  AbstractByteBuf -Dio.netty.buffer.checkBounds: true
+17:09:28.845 [nioEventLoopGroup-4-1] DEBUG  ResourceLeakDetectorFactory Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5671c3b3
+17:09:28.883 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler Connection established: /127.0.0.1:53744 ctx: ChannelHandlerContext(ControllerServerHandler#0, [id: 0xaa960ded, L:/127.0.0.1:7000 - R:/127.0.0.1:53744])
+17:09:28.886 [nioEventLoopGroup-3-1] DEBUG  Recycler -Dio.netty.recycler.maxCapacityPerThread: 4096
+17:09:28.886 [nioEventLoopGroup-3-1] DEBUG  Recycler -Dio.netty.recycler.maxSharedCapacityFactor: 2
+17:09:28.886 [nioEventLoopGroup-3-1] DEBUG  Recycler -Dio.netty.recycler.linkCapacity: 16
+17:09:28.886 [nioEventLoopGroup-3-1] DEBUG  Recycler -Dio.netty.recycler.ratio: 8
+17:09:28.891 [nioEventLoopGroup-3-1] DEBUG  AbstractByteBuf -Dio.netty.buffer.checkAccessible: true
+17:09:28.891 [nioEventLoopGroup-3-1] DEBUG  AbstractByteBuf -Dio.netty.buffer.checkBounds: true
+17:09:28.891 [nioEventLoopGroup-3-1] DEBUG  ResourceLeakDetectorFactory Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@754fa631
+17:09:28.904 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler channelRead0() start.
+17:09:28.905 [nioEventLoopGroup-3-1] TRACE  Controller [Controller] Got address! 192.168.1.9:7001
+17:09:28.905 [nioEventLoopGroup-3-1] TRACE  Controller [Controller] addrToStorageInfo: {192.168.1.9:7001=edu.usfca.cs.dfs.StorageInfo@4b947e37}
+17:09:28.905 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler channelReadComplete() ctx: ChannelHandlerContext(ControllerServerHandler#0, [id: 0xaa960ded, L:/127.0.0.1:7000 - R:/127.0.0.1:53744])
+17:09:32.247 [Thread-1] TRACE  FailureDetector FailureDetector checking... 
+17:09:32.247 [Thread-1] TRACE  FailureDetector 192.168.1.9:7001 elapse: 3342
+17:09:32.989 [main] TRACE  Client store command executed!
+17:09:32.991 [main] TRACE  Client setupNettyClient() start. 
+17:09:32.996 [main] DEBUG  InternalLoggerFactory Using Log4J2 as the default logging framework
+17:09:32.998 [main] DEBUG  MultithreadEventLoopGroup -Dio.netty.eventLoopThreads: 24
+17:09:33.007 [main] DEBUG  InternalThreadLocalMap -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+17:09:33.007 [main] DEBUG  InternalThreadLocalMap -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+17:09:33.012 [main] DEBUG  NioEventLoop -Dio.netty.noKeySetOptimization: false
+17:09:33.012 [main] DEBUG  NioEventLoop -Dio.netty.selectorAutoRebuildThreshold: 512
+17:09:33.021 [main] DEBUG  PlatformDependent Platform: MacOS
+17:09:33.022 [main] DEBUG  PlatformDependent0 -Dio.netty.noUnsafe: false
+17:09:33.022 [main] DEBUG  PlatformDependent0 Java version: 8
+17:09:33.023 [main] DEBUG  PlatformDependent0 sun.misc.Unsafe.theUnsafe: available
+17:09:33.023 [main] DEBUG  PlatformDependent0 sun.misc.Unsafe.copyMemory: available
+17:09:33.023 [main] DEBUG  PlatformDependent0 java.nio.Buffer.address: available
+17:09:33.024 [main] DEBUG  PlatformDependent0 direct buffer constructor: available
+17:09:33.024 [main] DEBUG  PlatformDependent0 java.nio.Bits.unaligned: available, true
+17:09:33.024 [main] DEBUG  PlatformDependent0 jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+17:09:33.024 [main] DEBUG  PlatformDependent0 java.nio.DirectByteBuffer.<init>(long, int): available
+17:09:33.024 [main] DEBUG  PlatformDependent sun.misc.Unsafe: available
+17:09:33.024 [main] DEBUG  PlatformDependent -Dio.netty.tmpdir: /var/folders/q1/g1m50l_515dgkfx0_0_0vcb00000gn/T (java.io.tmpdir)
+17:09:33.025 [main] DEBUG  PlatformDependent -Dio.netty.bitMode: 64 (sun.arch.data.model)
+17:09:33.025 [main] DEBUG  PlatformDependent -Dio.netty.maxDirectMemory: 3817865216 bytes
+17:09:33.025 [main] DEBUG  PlatformDependent -Dio.netty.uninitializedArrayAllocationThreshold: -1
+17:09:33.026 [main] DEBUG  CleanerJava6 java.nio.ByteBuffer.cleaner(): available
+17:09:33.026 [main] DEBUG  PlatformDependent -Dio.netty.noPreferDirect: false
+17:09:33.029 [main] DEBUG  PlatformDependent org.jctools-core.MpscChunkedArrayQueue: available
+17:09:33.034 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@667a738
+17:09:33.035 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6ee12bac
+17:09:33.035 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@55040f2f
+17:09:33.035 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@64c87930
+17:09:33.035 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@400cff1a
+17:09:33.035 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@275710fc
+17:09:33.035 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@525f1e4e
+17:09:33.035 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@75f9eccc
+17:09:33.035 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@52aa2946
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4de5031f
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@67e2d983
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5d47c63f
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5ea434c8
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3bbc39f8
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4ae3c1cd
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@29f69090
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@568bf312
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@ca263c2
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@589b3632
+17:09:33.036 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@45f45fa1
+17:09:33.037 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4c6e276e
+17:09:33.037 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@534df152
+17:09:33.037 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@52e677af
+17:09:33.037 [main] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@35083305
+17:09:33.046 [main] DEBUG  Client Connecting to localhost:7000...
+17:09:33.058 [main] DEBUG  DefaultChannelId -Dio.netty.processId: 2070 (auto-detected)
+17:09:33.059 [main] DEBUG  NetUtil -Djava.net.preferIPv4Stack: false
+17:09:33.059 [main] DEBUG  NetUtil -Djava.net.preferIPv6Addresses: false
+17:09:33.063 [main] DEBUG  NetUtil Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+17:09:33.063 [main] DEBUG  NetUtil Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+17:09:33.065 [main] DEBUG  DefaultChannelId -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+17:09:33.071 [main] DEBUG  ResourceLeakDetector -Dio.netty.leakDetection.level: simple
+17:09:33.071 [main] DEBUG  ResourceLeakDetector -Dio.netty.leakDetection.targetRecords: 4
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.numHeapArenas: 24
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.numDirectArenas: 24
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.pageSize: 8192
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.maxOrder: 11
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.chunkSize: 16777216
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.tinyCacheSize: 512
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.smallCacheSize: 256
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.normalCacheSize: 64
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.cacheTrimInterval: 8192
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+17:09:33.087 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.useCacheForAllThreads: true
+17:09:33.088 [main] DEBUG  PooledByteBufAllocator -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+17:09:33.093 [main] DEBUG  ByteBufUtil -Dio.netty.allocator.type: pooled
+17:09:33.093 [main] DEBUG  ByteBufUtil -Dio.netty.threadLocalDirectBufferSize: 0
+17:09:33.093 [main] DEBUG  ByteBufUtil -Dio.netty.maxThreadLocalCharBufferSize: 16384
+17:09:33.161 [nioEventLoopGroup-3-2] TRACE  ControllerServerHandler Connection established: /127.0.0.1:53745 ctx: ChannelHandlerContext(ControllerServerHandler#0, [id: 0xa9c55e69, L:/127.0.0.1:7000 - R:/127.0.0.1:53745])
+17:09:33.162 [main] TRACE  Client requestListOfSNsToStore() start. 
+17:09:33.163 [main] TRACE  Client numChunks: 3
+17:09:33.170 [nioEventLoopGroup-2-1] TRACE  ClientToControllerHandler Connection established: localhost/127.0.0.1:7000 ctx: ChannelHandlerContext(ClientToControllerHandler#0, [id: 0x4be1e33a, L:/127.0.0.1:53745 - R:localhost/127.0.0.1:7000])
+17:09:33.172 [main] DEBUG  Recycler -Dio.netty.recycler.maxCapacityPerThread: 4096
+17:09:33.172 [main] DEBUG  Recycler -Dio.netty.recycler.maxSharedCapacityFactor: 2
+17:09:33.172 [main] DEBUG  Recycler -Dio.netty.recycler.linkCapacity: 16
+17:09:33.172 [main] DEBUG  Recycler -Dio.netty.recycler.ratio: 8
+17:09:33.187 [nioEventLoopGroup-2-1] DEBUG  AbstractByteBuf -Dio.netty.buffer.checkAccessible: true
+17:09:33.187 [nioEventLoopGroup-2-1] DEBUG  AbstractByteBuf -Dio.netty.buffer.checkBounds: true
+17:09:33.188 [nioEventLoopGroup-2-1] DEBUG  ResourceLeakDetectorFactory Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7535e824
+17:09:33.196 [main] TRACE  Client store command end.
+17:09:33.196 [nioEventLoopGroup-3-2] TRACE  ControllerServerHandler channelRead0() start.
+17:09:33.196 [nioEventLoopGroup-3-2] TRACE  Controller numChunks: 3
+17:09:33.197 [nioEventLoopGroup-3-2] TRACE  Controller listSNsAlive: [192.168.1.9:7001]
+17:09:33.197 [nioEventLoopGroup-3-2] TRACE  Controller addressesPicked: [192.168.1.9:7001]
+17:09:33.206 [nioEventLoopGroup-3-2] TRACE  Controller [Controller] Sending back the list of SNs.
+17:09:33.214 [nioEventLoopGroup-3-2] TRACE  ControllerServerHandler channelReadComplete() ctx: ChannelHandlerContext(ControllerServerHandler#0, [id: 0xa9c55e69, L:/127.0.0.1:7000 ! R:/127.0.0.1:53745])
+17:09:33.214 [nioEventLoopGroup-3-2] TRACE  ControllerServerHandler Connection lost: /127.0.0.1:53745 ctx: ChannelHandlerContext(ControllerServerHandler#0, [id: 0xa9c55e69, L:/127.0.0.1:7000 ! R:/127.0.0.1:53745])
+17:09:33.219 [nioEventLoopGroup-2-1] TRACE  ClientToControllerHandler channelRead0() start. ctx: ChannelHandlerContext(ClientToControllerHandler#0, [id: 0x4be1e33a, L:/127.0.0.1:53745 - R:localhost/127.0.0.1:7000])
+17:09:33.219 [nioEventLoopGroup-2-1] TRACE  Client [Client] Got response!
+17:09:33.219 [nioEventLoopGroup-2-1] DEBUG  Client listStorageNodes: [192.168.1.9:7001]
+17:09:33.219 [nioEventLoopGroup-2-1] TRACE  ClientToControllerHandler channelReadComplete() ctx: ChannelHandlerContext(ClientToControllerHandler#0, [id: 0x4be1e33a, L:/127.0.0.1:53745 - R:localhost/127.0.0.1:7000])
+17:09:33.219 [nioEventLoopGroup-2-1] TRACE  Client sendStorageReq() start.
+17:09:33.220 [nioEventLoopGroup-2-1] DEBUG  Client Setup connection to SN 192.168.1.9:7001
+17:09:33.220 [nioEventLoopGroup-2-1] TRACE  Client setupNettyClient() start. 
+17:09:33.220 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@18626c3
+17:09:33.220 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5750a11f
+17:09:33.220 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@498116d8
+17:09:33.220 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@188de6c8
+17:09:33.220 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@288d7b24
+17:09:33.220 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@7a077f73
+17:09:33.220 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3b71813d
+17:09:33.220 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4c3d8b3d
+17:09:33.220 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@f2a8dc5
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4e1797b4
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@79589f22
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@599c8757
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@2836d04
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@705bf0d7
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@4dc7d071
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@70dc40a1
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@692ef8f3
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@465c7049
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@356b64ab
+17:09:33.221 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@27a0f3ef
+17:09:33.222 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@39d77e88
+17:09:33.222 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@1cac8fc3
+17:09:33.222 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@728cfec1
+17:09:33.222 [nioEventLoopGroup-2-1] TRACE  NioEventLoop instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@529344f4
+17:09:33.222 [nioEventLoopGroup-2-1] DEBUG  Client Connecting to 192.168.1.9:7001...
+17:09:33.223 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler Connection established: /192.168.1.9:7001 ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.225 [nioEventLoopGroup-2-1] DEBUG  Client Sending chunked data! chunk 0  [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001]
+17:09:33.226 [nioEventLoopGroup-2-1] DEBUG  Client Sending chunked data! chunk 1  [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001]
+17:09:33.227 [nioEventLoopGroup-3-1] TRACE  StorageNodeToClientServerHandler Connection established: /192.168.1.9:53746 ctx: ChannelHandlerContext(StorageNodeToClientServerHandler#0, [id: 0xe51c543d, L:/192.168.1.9:7001 - R:/192.168.1.9:53746])
+17:09:33.228 [nioEventLoopGroup-2-1] DEBUG  Client Sending chunked data! chunk 2  [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001]
+17:09:33.229 [nioEventLoopGroup-2-1] TRACE  Client sendStorageReq() end.
+17:09:33.229 [nioEventLoopGroup-2-1] TRACE  ClientToControllerHandler ctx closed. ctx: ChannelHandlerContext(ClientToControllerHandler#0, [id: 0x4be1e33a, L:/127.0.0.1:53745 - R:localhost/127.0.0.1:7000])
+17:09:33.230 [nioEventLoopGroup-2-1] TRACE  ClientToControllerHandler Connection lost: localhost/127.0.0.1:7000 ctx: ChannelHandlerContext(ClientToControllerHandler#0, [id: 0x4be1e33a, L:/127.0.0.1:53745 ! R:localhost/127.0.0.1:7000])
+17:09:33.232 [nioEventLoopGroup-3-1] TRACE  StorageNodeToClientServerHandler channelRead0() start. 
+17:09:33.259 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 storeChunkMsg: fileName: "my_file.txt"
+data: "aaa\nb"
+
+17:09:33.259 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 entropy: 1.3709505944546687
+17:09:33.260 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 max compression: 0.8286311756931664
+17:09:33.265 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 storing checksum: a002f80daf43a89628dee64438d2aa5c
+17:09:33.265 [nioEventLoopGroup-3-1] DEBUG  StorageNode 192.168.1.9:7001 writing the compressed chunk file: my_file.txt_chunk0_comp_checksum_a002f80daf43a89628dee64438d2aa5c
+17:09:33.267 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 Storing done, sending Done message...
+17:09:33.267 [nioEventLoopGroup-3-1] TRACE  StorageNodeToClientServerHandler channelReadComplete() ctx: ChannelHandlerContext(StorageNodeToClientServerHandler#0, [id: 0xe51c543d, L:/192.168.1.9:7001 - R:/192.168.1.9:53746])
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  StorageNodeToClientServerHandler channelRead0() start. 
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 storeChunkMsg: fileName: "my_file.txt"
+chunkId: 1
+data: "bb\ncc"
+
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 entropy: 1.5219280948873621
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 max compression: 0.8097589881390798
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler channelRead0() start. ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler Got Done message. ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  Client chunkId: 0 /3
+17:09:33.268 [nioEventLoopGroup-3-1] DEBUG  Client checkFinish() chunks remaining: 2
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 storing checksum: 8e73a209aee7b221556494bde16c799f
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler channelReadComplete() ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.268 [nioEventLoopGroup-3-1] DEBUG  StorageNode 192.168.1.9:7001 writing the compressed chunk file: my_file.txt_chunk1_comp_checksum_8e73a209aee7b221556494bde16c799f
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler ctx closed. ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler channelRead0() start. ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.268 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler channelReadComplete() ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.269 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 Storing done, sending Done message...
+17:09:33.269 [nioEventLoopGroup-3-1] TRACE  StorageNodeToClientServerHandler channelRead0() start. 
+17:09:33.269 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 storeChunkMsg: fileName: "my_file.txt"
+chunkId: 2
+data: "c\n"
+
+17:09:33.269 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 entropy: 1.0
+17:09:33.269 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 max compression: 0.875
+17:09:33.270 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 storing checksum: c80ed5c024f5e34babdae6677e2c89de
+17:09:33.270 [nioEventLoopGroup-3-1] DEBUG  StorageNode 192.168.1.9:7001 writing the compressed chunk file: my_file.txt_chunk2_comp_checksum_c80ed5c024f5e34babdae6677e2c89de
+17:09:33.270 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler ctx closed. ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.270 [nioEventLoopGroup-3-1] TRACE  StorageNode 192.168.1.9:7001 Storing done, sending Done message...
+17:09:33.270 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler channelRead0() start. ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.270 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler Got Done message. ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.270 [nioEventLoopGroup-3-1] TRACE  Client chunkId: 1 /3
+17:09:33.270 [nioEventLoopGroup-3-1] DEBUG  Client checkFinish() chunks remaining: 1
+17:09:33.271 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler channelRead0() start. ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.271 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler channelReadComplete() ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.271 [nioEventLoopGroup-3-1] TRACE  StorageNodeToClientServerHandler channelReadComplete() ctx: ChannelHandlerContext(StorageNodeToClientServerHandler#0, [id: 0xe51c543d, L:/192.168.1.9:7001 - R:/192.168.1.9:53746])
+17:09:33.271 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler ctx closed. ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.271 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler channelRead0() start. ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.271 [nioEventLoopGroup-3-1] TRACE  ClientToStorageNodeHandler Got Done message. ctx: ChannelHandlerContext(ClientToStorageNodeHandler#0, [id: 0x489b9a3b, L:/192.168.1.9:53746 - R:/192.168.1.9:7001])
+17:09:33.271 [nioEventLoopGroup-3-1] TRACE  Client chunkId: 2 /3
+17:09:33.271 [nioEventLoopGroup-3-1] DEBUG  Client checkFinish() chunks remaining: 0
+17:09:33.271 [nioEventLoopGroup-3-1] TRACE  Client Storing done.
+17:09:33.649 [nioEventLoopGroup-3-1] TRACE  StorageNodeToClientServerHandler channelReadComplete() ctx: ChannelHandlerContext(StorageNodeToClientServerHandler#0, [id: 0xe51c543d, L:/192.168.1.9:7001 - R:/192.168.1.9:53746])
+17:09:33.650 [nioEventLoopGroup-3-1] TRACE  StorageNodeToClientServerHandler Connection lost: /192.168.1.9:53746 ctx: ChannelHandlerContext(StorageNodeToClientServerHandler#0, [id: 0xe51c543d, L:/192.168.1.9:7001 ! R:/192.168.1.9:53746])
+17:09:33.865 [nioEventLoopGroup-4-1] TRACE  StorageNode 192.168.1.9:7001, Send Heartbeat! (all idle)
+17:09:33.866 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler channelRead0() start.
+17:09:33.866 [nioEventLoopGroup-3-1] TRACE  Controller [Controller] Receive Heartbeat! (all idle)
+17:09:33.867 [nioEventLoopGroup-3-1] TRACE  Controller addrSnClient: 127.0.0.1:53744
+17:09:33.867 [nioEventLoopGroup-3-1] TRACE  Controller listSNsAlive: [192.168.1.9:7001]
+17:09:33.867 [nioEventLoopGroup-3-1] TRACE  Controller Update last heartbeat time in SN, 192.168.1.9:7001
+17:09:33.867 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler channelReadComplete() ctx: ChannelHandlerContext(ControllerServerHandler#0, [id: 0xaa960ded, L:/127.0.0.1:7000 - R:/127.0.0.1:53744])
+17:09:37.248 [Thread-1] TRACE  FailureDetector FailureDetector checking... 
+17:09:37.248 [Thread-1] TRACE  FailureDetector 192.168.1.9:7001 elapse: 3381
+17:09:38.866 [nioEventLoopGroup-4-1] TRACE  StorageNode 192.168.1.9:7001, Send Heartbeat! (all idle)
+17:09:38.866 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler channelRead0() start.
+17:09:38.867 [nioEventLoopGroup-3-1] TRACE  Controller [Controller] Receive Heartbeat! (all idle)
+17:09:38.867 [nioEventLoopGroup-3-1] TRACE  Controller addrSnClient: 127.0.0.1:53744
+17:09:38.867 [nioEventLoopGroup-3-1] TRACE  Controller listSNsAlive: [192.168.1.9:7001]
+17:09:38.867 [nioEventLoopGroup-3-1] TRACE  Controller Update last heartbeat time in SN, 192.168.1.9:7001
+17:09:38.867 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler channelReadComplete() ctx: ChannelHandlerContext(ControllerServerHandler#0, [id: 0xaa960ded, L:/127.0.0.1:7000 - R:/127.0.0.1:53744])
+17:09:42.250 [Thread-1] TRACE  FailureDetector FailureDetector checking... 
+17:09:42.250 [Thread-1] TRACE  FailureDetector 192.168.1.9:7001 elapse: 3383
+17:09:43.871 [nioEventLoopGroup-4-1] TRACE  StorageNode 192.168.1.9:7001, Send Heartbeat! (all idle)
+17:09:43.872 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler channelRead0() start.
+17:09:43.872 [nioEventLoopGroup-3-1] TRACE  Controller [Controller] Receive Heartbeat! (all idle)
+17:09:43.872 [nioEventLoopGroup-3-1] TRACE  Controller addrSnClient: 127.0.0.1:53744
+17:09:43.872 [nioEventLoopGroup-3-1] TRACE  Controller listSNsAlive: [192.168.1.9:7001]
+17:09:43.872 [nioEventLoopGroup-3-1] TRACE  Controller Update last heartbeat time in SN, 192.168.1.9:7001
+17:09:43.872 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler channelReadComplete() ctx: ChannelHandlerContext(ControllerServerHandler#0, [id: 0xaa960ded, L:/127.0.0.1:7000 - R:/127.0.0.1:53744])
+17:09:47.247 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler channelReadComplete() ctx: ChannelHandlerContext(ControllerServerHandler#0, [id: 0xaa960ded, L:/127.0.0.1:7000 - R:/127.0.0.1:53744])
+17:09:47.248 [nioEventLoopGroup-3-1] TRACE  ControllerServerHandler Connection lost: /127.0.0.1:53744 ctx: ChannelHandlerContext(ControllerServerHandler#0, [id: 0xaa960ded, L:/127.0.0.1:7000 ! R:/127.0.0.1:53744])
+17:09:47.255 [Thread-1] TRACE  FailureDetector FailureDetector checking... 
+17:09:47.255 [Thread-1] TRACE  FailureDetector 192.168.1.9:7001 elapse: 3383
